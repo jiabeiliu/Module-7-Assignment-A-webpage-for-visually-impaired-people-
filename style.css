@@ -1,0 +1,113 @@
+/* 基本重置 */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* 页面基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    font-size: 18px; /* 较大字体大小 */
+    line-height: 1.6;
+}
+
+/* 高对比度颜色 */
+a {
+    color: #007bff;
+}
+a:hover {
+    color: #0056b3;
+}
+
+/* 导航栏样式 */
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* 页首标题样式 */
+header h1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.5em; /* 更大的标题字体 */
+}
+
+/* 主要内容区域 */
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px; /* 确保内容不会过宽 */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* 图片样式 */
+img {
+    max-width: 100%; /* 确保图片不会超出其容器 */
+    height: auto;
+    display: block; /* 避免图片下方的空白间隙 */
+    margin: 0 auto; /* 图片居中显示 */
+}
+
+/* 增强可读性 */
+p {
+    margin-bottom: 1em;
+}
+
+h2 {
+    margin-bottom: .5em;
+    color: #007bff; /* 标题使用高对比度颜色 */
+}
+
+/* 适应屏幕阅读器和键盘导航的焦点样式 */
+a:focus, button:focus {
+    outline: 3px solid #007bff;
+    outline-offset: 2px;
+}
+/* Default styles */
+body {
+    color: #000;
+    background-color: #fff;
+}
+
+/* High-contrast styles */
+.high-contrast {
+    color: #fff;
+    background-color: #000;
+}
